@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    image: extraone5464/two_tier_flask-app:latest
+    image: extraone5464/my-app-flask:latest
     container_name: flask-app
     ports:
       - "5000:5000"
